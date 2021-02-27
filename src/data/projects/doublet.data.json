@@ -1,0 +1,24 @@
+{
+    "path": "doublet",
+    "order": 4,
+    "title": "Doublet",
+    "startImg": "https://i.imgur.com/kU7gy6p.png",
+    "startText": "Entrena tu habilidad mental.",
+    "presentation": "Entrena tu habilidad mental.",
+    "description": "",
+    "development": "La app esta desarrollada utilizando React Native y React Hooks.",
+    "links": [
+        { 
+            "name": "APK de la app" ,
+            "link": "https://drive.google.com/file/d/1hwWow41FjLssX0CwWd2a9EfnfsnDqb3t/view?usp=sharing"
+        }
+    ],
+    "gallery": [
+        {
+            "name": "",
+            "images": [
+                "https://i.imgur.com/NdyjjBG.jpg", "https://i.imgur.com/fGvpMyq.jpg", "https://i.imgur.com/mcd7aco.jpg", "https://i.imgur.com/AXhE5TV.jpg", "https://i.imgur.com/X9sbnCf.jpg", "https://i.imgur.com/YUsPYoO.jpg", "https://i.imgur.com/qfQx5cM.jpg"
+            ]
+        }
+    ]
+}

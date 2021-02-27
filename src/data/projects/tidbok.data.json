@@ -1,0 +1,38 @@
+{
+    "path": "tidbok",
+    "order": 1,
+    "title": "TidBok",
+    "startImg": "https://i.imgur.com/rl7poNI.png",
+    "startText": "Permite llevar un registro de los tiempos y progresos de los deportistas.",
+    "presentation": "TidBok es un proyecto personal que surgió de mi experiencia entrenando ciclismo. Es una aplicación que le permitirá a los deportistas y entrenadores llevar un registro de tiempos y progresos con un diseño moderno y con funciones especificas para cumplir su propósito en deportes como el ciclismo y el atletismo.",
+    "description": "Le va a permitir al los usuarios medir su tiempo y progreso en sus recorridos favoritos, generar gráficas y estadísticas que le permitan saber como avanza su entrenamiento, también le permitirá agregar otros deportistas y crear un equipo donde se puedan competir entre ellos.",
+    "development": "El el diseño del proyecto se desarrolla en Adobe XD, utiliza las tecnologías de de React para la aplicación web, React Native para ta aplicación móvil, ambas utilizando componentes UI propios con la librería Styled-Components y el backend utiliza Node js. El prototipo de la aplicación esta web desarrollada utilizando React-Hooks  y React-TypeScrip., utiliza componentes UI y animaciones propias sin utilizar componentes UI externos.",
+    "links": [
+        {
+            "name": "Diseño del proyecto",
+            "link": "https://xd.adobe.com/view/35f4c929-3f89-4a2a-52d8-ed916fee0315-43c5/grid"
+        },
+        {
+            "name": "Componentes UI aplicación web",
+            "link": "https://tid-bok.vercel.app"
+        },
+        {
+            "name": "Prototipo de aplicación web",
+            "link": "https://tid-bok.vercel.app/ui"
+        }
+    ],
+    "gallery": [
+        {
+            "name": "Aplicación web", 
+            "images": [
+                "https://i.imgur.com/rl7poNI.png","https://i.imgur.com/iJZb0iQ.png","https://i.imgur.com/2BHHzfs.png","https://i.imgur.com/HaSb1VL.png","https://i.imgur.com/GKjMre8.png","https://i.imgur.com/lRcnw0x.png","https://i.imgur.com/yuNICtD.png","https://i.imgur.com/7o4gLKZ.png","https://i.imgur.com/wcz2hwj.png","https://i.imgur.com/waGzgiR.png"
+            ]
+        },
+        {
+            "name": "Aplicación móvil", 
+            "images": [
+                "https://i.imgur.com/V83ICuw.png","https://i.imgur.com/lutd4Dx.png","https://i.imgur.com/FaPa13a.png"
+            ]  
+        }
+    ]
+}

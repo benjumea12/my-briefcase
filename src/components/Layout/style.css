@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Josefin+Slab:wght@600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Fauna One', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Slab', serif;
+}
+
+p {
+    font-family: 'Fauna One', serif;
+}
+
+/*
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charSet="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="note" content="environment=development"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Josefin+Slab:wght@600;700&display=swap" rel="stylesheet">
+
+    <link href="./style.css" rel="stylesheet"/>
+
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div id="___gatsby"></div>
+    <div id="portal"></div>
+
+    <script src="/polyfill.js" nomodule=""></script>
+    <script src="/commons.js"></script>
+</body>
+</html>
+*/

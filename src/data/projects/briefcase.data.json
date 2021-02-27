@@ -1,0 +1,19 @@
+{
+    "path": "briefcase",
+    "order": 3,
+    "title": "Portafolio",
+    "startImg": "https://i.imgur.com/PRpDePm.png",
+    "startText": "Mi portafolio de proyectos.",
+    "presentation": "Presentación de todos los proyectos que he realizado, con diseño atractivo y minimalista con función de cambio de tema.",
+    "description": "",
+    "development": "El proyecto esta realizado con Gatsby que es un marco de código abierto basado en React para crear sitios web y aplicaciones,  utilizando la herramienta Gatsby Create Pages para crear automáticamente las paginas del sitio a partir de los datos de archivos JSON extraídos con Graphql. Con diseño a dos colores y animaciones propias creadas con la librería de administrador de estilos Styled Componts.",
+    "links": [],
+    "gallery": [
+        {
+            "name": "",
+            "images": [
+                "https://i.imgur.com/PRpDePm.png", "https://i.imgur.com/WSWrIY7.png", "https://i.imgur.com/qQPRbK4.png", "https://i.imgur.com/FooCda5.png"
+            ]
+        }
+    ]
+}

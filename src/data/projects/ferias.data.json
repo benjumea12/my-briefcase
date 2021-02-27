@@ -1,0 +1,43 @@
+{
+    "path": "ferias",
+    "order": 2,
+    "title": "Ferias Comerciales",
+    "startImg": "https://i.imgur.com/qHWm7NX.png",
+    "startText": "Es la la solución a un problema que tenían los estudiantes y el SENA en el proceso de desarrollo de una feria.",
+    "presentation": "Ferias Comerciales es un proyecto educativo desarrollado por un grupo de estudiantes del tecnologo ADSI (análisis y desarrollo de sistemas informáticos) del SENA, es la la solución a un problema que tenían los estudiantes y el SENA en el proceso de desarrollo de una feria, desde su planeación hasta su terminación y entrega de resultados.",
+    "description": "Ferias Comerciales le permite a los directivos del SENA planear un feria con anticipación, los encargados de realizar la feria podrán agregar los participantes con sus stands y  al momento de realizar la feria darles acceso a un sistema de  facturación, también podrán generar informes del estado de sus ventas.",
+    "development": "El proyecto consta de una aplicación web en la cual realizamos todo el proceso de desarrollo de software desde la recolección de requerimiento, análisis, diseño, desarrollo y por ultimo su presentación. Fue desarrollada con el lenguaje PHP utilizando el framework CodeIgniter y como base de datos utilizamos SQL.",
+    "links": [
+        {
+            "name": "Proyecto terminado",
+            "link": "https://benjumeac.000webhostapp.com/ferias"
+        }
+    ],
+    "addText": "Administrador: Email: admin@mail.com - Pass: secret | Usuario feria: Email: userferia@mail.com - Pass: secret | Usuario stand: Email: userstand@mail.com - Pass: secret",
+    "gallery": [
+        {
+            "name": "Ferias",
+            "images": [
+                "https://i.imgur.com/BSH3KnI.png", "https://i.imgur.com/katzfL0.png"
+            ]
+        },
+        {
+            "name": "Productos y facturación    ",
+            "images": [
+                "https://i.imgur.com/RNeXD2P.png", "https://i.imgur.com/SCPnSYr.png", "https://i.imgur.com/nWBgiic.png"
+            ]
+        },
+        {
+            "name": "Reportes y devoluciones",
+            "images": [
+                "https://i.imgur.com/3AKjV3y.png", "https://i.imgur.com/Js1vzIM.png"
+            ]
+        },
+        {
+            "name": "Seguridad",
+            "images": [
+                "https://i.imgur.com/XepIbUg.png", "https://i.imgur.com/HlfKpxI.png"
+            ]
+        }
+    ]
+}
