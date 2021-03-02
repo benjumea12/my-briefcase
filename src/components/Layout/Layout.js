@@ -13,7 +13,7 @@ const data = [ '+57 310 824 6838', 'benjumeac12@gmail.com' ]
 const Layout = ({children}) => {
     const sizes = {
         xl: '1200px',
-        lg: '992px', 
+        lg: '992px',
         md: '768px',
         sm: '576px'
     }
@@ -59,28 +59,27 @@ const Layout = ({children}) => {
 
     return(
         <main style={{
-            position: 'absolute', 
-            padding: 0, 
-            margin: 0, 
-            width: '100%', 
-            backgroundColor: 'red'}
+            position: 'absolute',
+            padding: 0,
+            margin: 0,
+            width: '100%'}
         }>
             <ThemeProvider theme={defaultTheme}>
                 <CardTheme>
                     { !openSocial.open ? <React.Fragment>
                             <Social>
                                 <FontAwesomeIcon className='icon' icon={faWhatsapp} onClick={() => handleOpenSolcial(0)} />
-                                <a 
-                                    className='icon' 
-                                    href='https://www.linkedin.com/in/esteban-benjumea-castrillon-7609821b1/' 
+                                <a
+                                    className='icon'
+                                    href='https://www.linkedin.com/in/esteban-benjumea-castrillon-7609821b1/'
                                     target='_blank'
                                     rel="noreferrer"
                                 >
                                     <FontAwesomeIcon icon={faLinkedinIn} />
                                 </a>
-                                <a 
-                                    className='icon' 
-                                    href='https://github.com/benjumea12' 
+                                <a
+                                    className='icon'
+                                    href='https://github.com/benjumea12'
                                     target='_blank'
                                     rel="noreferrer"
                                 >
@@ -90,25 +89,25 @@ const Layout = ({children}) => {
                             </Social>
                             <div className='divider'></div>
                             <ButtonSwith ligthTheme={ligthTheme} onClick={handleSetTheme}>
-                                <div className='lane'> 
+                                <div className='lane'>
                                     <div className='button'>
-                                        { ligthTheme ? 
+                                        { ligthTheme ?
                                             <FontAwesomeIcon className='icon' icon={faSun} /> :
                                             <FontAwesomeIcon className='icon' icon={faMoon} />
                                         }
-                                        
+
                                     </div>
                                 </div>
-                            </ButtonSwith> 
-                        </React.Fragment>: 
-                        
+                            </ButtonSwith>
+                        </React.Fragment>:
+
                         <CardText onClick={handleCloseSolcial}>
                             <h3>{openSocial.social}</h3>
                         </CardText>
                     }
                 </CardTheme>
                 {children}
-            </ThemeProvider>         
+            </ThemeProvider>
         </main>
     )
 }

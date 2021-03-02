@@ -4,7 +4,7 @@ export const CardTheme = styled.div`
     position: fixed;
     box-shadow: 5px 5px 1px ${ props => props.theme.secondary };
     bottom: 20px;
-    right: 40px;
+    right: 20px;
     z-index: 3;
     padding: 15px 30px;
     background-color: ${ props => props.theme.primary };
@@ -16,6 +16,11 @@ export const CardTheme = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    @media (max-width: ${props => props.theme.sizes.sm}) {
+        left: 20px;
+        bottom: 15px;
+    }
 
     &:hover {
         box-shadow: 0px 0px 0px ${ props => props.theme.secondary };
